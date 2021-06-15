@@ -1,0 +1,215 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9581450899,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Adactin page # browser, url--\u003ePre conditional",
+            "match": {
+              "location": "StepDefinition.user_is_on_Adactin_page_browser_url_Pre_conditional()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 402088500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user need to enter username and password on Adactin page",
+            "match": {
+              "location": "StepDefinition.user_need_to_enter_username_and_password_on_Adactin_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2161119000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user need to click login button",
+            "match": {
+              "location": "StepDefinition.user_need_to_click_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3450100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Filling search functionality of fields marked with red asterix (*) are mandatory",
+        "description": "",
+        "id": "validating-search-function-of-adactin-application;filling-search-functionality-of-fields-marked-with-red-asterix-(*)-are-mandatory",
+        "after": [
+          {
+            "result": {
+              "duration": 357000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11033536499,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should select the location,no of rooms,checkin date,checkout date,adults per room",
+            "match": {
+              "location": "StepDefinition.user_should_select_the_location_no_of_rooms_checkin_date_checkout_date_adults_per_room()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1246039400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click search button",
+            "match": {
+              "location": "StepDefinition.user_should_click_search_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11314594300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Adactin page # browser, url--\u003ePre conditional",
+            "match": {
+              "location": "StepDefinition.user_is_on_Adactin_page_browser_url_Pre_conditional()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 386636800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user need to enter username and password on Adactin page",
+            "match": {
+              "location": "StepDefinition.user_need_to_enter_username_and_password_on_Adactin_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2487783300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user need to click login button",
+            "match": {
+              "location": "StepDefinition.user_need_to_click_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 779500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Filling search functionality of fields which is not marked with red asterix (*) are mandatory",
+        "description": "",
+        "id": "validating-search-function-of-adactin-application;filling-search-functionality-of-fields-which-is-not-marked-with-red-asterix-(*)-are-mandatory",
+        "after": [
+          {
+            "result": {
+              "duration": 215299,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 626325400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user need to select hotel,room type and child per room",
+            "match": {
+              "location": "StepDefinition.user_need_to_select_hotel_room_type_and_child_per_room()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110842000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user should click search button",
+            "match": {
+              "location": "StepDefinition.user_should_click_search_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validating search function of Adactin application",
+    "description": "",
+    "id": "validating-search-function-of-adactin-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Login.feature",
+    "tags": []
+  }
+]
